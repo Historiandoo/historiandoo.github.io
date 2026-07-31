@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../css/Home.css'
-import caravela from '../assets/caravela.png'
+import cardsHome from '../data/contentCards';
+import CardsContent from '../components/Card';
+
 
 function Home() {
 
@@ -21,94 +23,21 @@ function Home() {
             </div>
 
             <div className='row g-4'>
+            
+                {cardsHome.map(card => (
 
-                <div className='col-12 col-sm-6 col-md-4 col-lg-3'>
-                    <div className='card h-100'>
-                        <img src={caravela} className='card-img-top' alt='Chegada dos portugueses'/>
-                        <div className='card-body'>
-                            <h5 className='card-title text center'>A chegada dos portugueses ao Brasil</h5>
-                            <p className='card-text'>  </p>
-                             <Link className='btn btn-primary' to="/chegadaPortuguesesBrasil">Veja mais aqui!</Link>
-                        </div>
-                    </div>
-                </div>
+                    <div key={card.id} className='col-12 col-sm-6 col-md-4 col-lg-3'>
 
-                <div className='col-12 col-sm-6 col-md-4 col-lg-3'>
-                    <div className='card h-100'>
-                        <img src={caravela} className='card-img-top' alt='...'/>
-                        <div className='card-body'>
-                            <h5 className='card-title'>Decolonialidade</h5>
-                            <p className='card-text'> </p>
-                             <Link className='btn btn-primary' to="/chegadaPortuguesesBrasil">Veja mais aqui!</Link>
-                        </div>
-                    </div>
-                </div>
+                        <CardsContent
+                        title = {card.title}
+                        image = {card.image}
+                        description = {card.description}
+                        route = {card.route}
+                        />
 
-                <div className='col-12 col-sm-6 col-md-4 col-lg-3'>
-                    <div className='card'>
-                        <img src={caravela} className='card-img-top' alt='...'/>
-                        <div className='card-body'>
-                            <h5 className='card-title'> A chegada dos portugueses ao Brasil</h5>
-                            <p className='card-text'> Algum texto </p>
-                             <Link className='btn btn-primary' to="/chegadaPortuguesesBrasil">A chegada dos portugueses ao Brasil</Link>
-                        </div>
                     </div>
-                </div>
-
-                <div className='col-12 col-sm-6 col-md-4 col-lg-3'>
-                    <div className='card'>
-                        <img src={caravela} className='card-img-top' alt='...'/>
-                        <div className='card-body'>
-                            <h5 className='card-title'> A chegada dos portugueses ao Brasil</h5>
-                            <p className='card-text'> Algum texto </p>
-                             <Link className='btn btn-primary' to="/chegadaPortuguesesBrasil">A chegada dos portugueses ao Brasil</Link>
-                        </div>
-                    </div>
-                </div>
-
-                <div className='col-12 col-sm-6 col-md-4 col-lg-3'>
-                    <div className='card'>
-                        <img src={caravela} className='card-img-top' alt='...'/>
-                        <div className='card-body'>
-                            <h5 className='card-title'> A chegada dos portugueses ao Brasil</h5>
-                            <p className='card-text'> Algum texto </p>
-                             <Link className='btn btn-primary' to="/chegadaPortuguesesBrasil">A chegada dos portugueses ao Brasil</Link>
-                        </div>
-                    </div>
-                </div>
-
-                <div className='col-12 col-sm-6 col-md-4 col-lg-3'>
-                    <div className='card'>
-                        <img src={caravela} className='card-img-top' alt='...'/>
-                        <div className='card-body'>
-                            <h5 className='card-title'> A chegada dos portugueses ao Brasil</h5>
-                            <p className='card-text'> Algum texto </p>
-                             <Link className='btn btn-primary' to="/chegadaPortuguesesBrasil">A chegada dos portugueses ao Brasil</Link>
-                        </div>
-                    </div>
-                </div>
-
-                <div className='col-12 col-sm-6 col-md-4 col-lg-3'>
-                    <div className='card'>
-                        <img src={caravela} className='card-img-top' alt='...'/>
-                        <div className='card-body'>
-                            <h5 className='card-title'> A chegada dos portugueses ao Brasil</h5>
-                            <p className='card-text'> Algum texto </p>
-                             <Link className='btn btn-primary' to="/chegadaPortuguesesBrasil">A chegada dos portugueses ao Brasil</Link>
-                        </div>
-                    </div>
-                </div>
-
-                <div className='col-12 col-sm-6 col-md-4 col-lg-3'>
-                    <div className='card'>
-                        <img src={caravela} className='card-img-top' alt='...'/>
-                        <div className='card-body'>
-                            <h5 className='card-title'> A chegada dos portugueses ao Brasil</h5>
-                            <p className='card-text'> Algum texto </p>
-                             <Link className='btn btn-primary' to="/chegadaPortuguesesBrasil">A chegada dos portugueses ao Brasil</Link>
-                        </div>
-                    </div>
-                </div>
+                )
+            )}
 
             </div>
             

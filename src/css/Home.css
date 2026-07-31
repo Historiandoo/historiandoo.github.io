@@ -4,7 +4,7 @@
 
 #banner {
     background-color: #d1cfcf;
-    height: 180px;
+    height: 150px;
     border-radius: 10px;
 }
 
@@ -12,20 +12,4 @@
     transition: margin-left .5s;
     padding: 16px;
     position: relative;
-}
-
-/* .btn {
-    width: 100px;
-    height: 100px;
-    font-size: medium;
-} */
-
-.card-title {
-    min-height: 80px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;
 }

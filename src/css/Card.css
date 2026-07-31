@@ -1,0 +1,15 @@
+.card-title,
+.card-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-title {
+    min-height: 100px
+}
+
+.card-text {
+    min-height: 60px;
+}
