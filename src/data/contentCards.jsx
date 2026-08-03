@@ -16,7 +16,7 @@ const cardsHome = [
         title: "Decolonialidade",
         description: "O que é? E por que é importante?",
         image: decolonialidade,
-        route: "/chegadaPortuguesesBrasil"
+        route: "/decolonialidade"
     },
 ]
 

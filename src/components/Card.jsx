@@ -8,7 +8,7 @@ export default function CardsContent ({title, image, description, route}) {
 
             <img src={image} 
             className='card-img-top' 
-            alt='Chegada dos portugueses'
+            alt='Imagem'
             />
             
             <div className='card-body'>
