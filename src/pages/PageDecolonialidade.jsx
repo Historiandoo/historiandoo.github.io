@@ -9,7 +9,7 @@ function PageDecolonialidade() {
             <div className='container'>
                 <div className='content-page'>
                     <h1 className='text-center mb-5'> {content.title} </h1>
-                        {content.paragraphs.map( ({text}, index) => (
+                        {content.paragraphs.map( ({text, subtitle}, index) => (
                             <div className='paragraph mb-4' key={index}>
                                 {subtitle && <h3>{subtitle}</h3>}
                                 <p>{text}</p>
