@@ -1,6 +1,7 @@
 import caravela from '../assets/caravela.png';
 import decolonialidade from '../assets/decolonialidade.png';
 import cartaPeroVaz from '../assets/cartaPeroVaz.png';
+import antecedentesPreColonial from '../assets/antecedentesPreColonial.png';
 
 const cardsHome = [
 
@@ -27,6 +28,14 @@ const cardsHome = [
         image: cartaPeroVaz,
         route: "/cartaPeroVaz"
     },
+
+    {
+        id: 4,
+        title: "Antecedentes do Período Pré-Colonial",
+        description: "Como se deu o início de tudo",
+        image: antecedentesPreColonial,
+        route: "/antecedentesPreColonial"
+    }
 ]
 
 export default cardsHome;

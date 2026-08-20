@@ -4,6 +4,7 @@ import SideNavigationBar from './components/SideNavigationBar';
 import PageChegadaPortugueses from './pages/PageChegadaPortugueses';
 import PageDecolonialidade from './pages/PageDecolonialidade';
 import PageCartaPeroVaz from './pages/PageCartaPeroVaz';
+import PageAntecedentesPreColonial from './pages/PageAntecedentesPreColonial';
 import Home from './pages/Home';
 import '../src/css/App.css'
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/chegadaPortuguesesBrasil" element={<PageChegadaPortugueses/>}/>
           <Route path="/decolonialidade" element={<PageDecolonialidade/>}/>
           <Route path="/cartaPeroVaz" element={<PageCartaPeroVaz/>}/>
+          <Route path="/antecedentesPreColonial" element={<PageAntecedentesPreColonial/>}/>
         </Routes>
       </div>
      
