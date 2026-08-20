@@ -1,5 +1,6 @@
 import caravela from '../assets/caravela.png';
 import decolonialidade from '../assets/decolonialidade.png';
+import cartaPeroVaz from '../assets/cartaPeroVaz.png';
 
 const cardsHome = [
 
@@ -17,6 +18,14 @@ const cardsHome = [
         description: "O que é? E por que é importante?",
         image: decolonialidade,
         route: "/decolonialidade"
+    },
+
+    {
+        id: 3,
+        title: "Carta de Pero Vaz de Caminha",
+        description : "A Carta de Achamento do Brasil",
+        image: cartaPeroVaz,
+        route: "/cartaPeroVaz"
     },
 ]
 

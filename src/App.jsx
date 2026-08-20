@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SideNavigationBar from './components/SideNavigationBar';
 import PageChegadaPortugueses from './pages/PageChegadaPortugueses';
 import PageDecolonialidade from './pages/PageDecolonialidade';
+import PageCartaPeroVaz from './pages/PageCartaPeroVaz';
 import Home from './pages/Home';
 import '../src/css/App.css'
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/chegadaPortuguesesBrasil" element={<PageChegadaPortugueses/>}/>
           <Route path="/decolonialidade" element={<PageDecolonialidade/>}/>
+          <Route path="/cartaPeroVaz" element={<PageCartaPeroVaz/>}/>
         </Routes>
       </div>
      
