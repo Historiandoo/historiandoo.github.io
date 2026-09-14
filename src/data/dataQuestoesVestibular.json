@@ -1,0 +1,50 @@
+[
+    {
+        "questao_id":"enem_25_1Dia_Q88",
+        "vestibular" : "ENEM",
+        "year": 2025,
+        "fase": "1° Dia",
+        "number": 88,
+        "subject": "Ciências Humanas",
+        "period": "Atualidade",
+        "statement": "Desenvolver seu patrimônio cultural, seus conhecimentos do passado, suas expressões culturais e as manifestações de suas ciências, tecnologias e culturas, compreendidos os recursos humanos e genéticos, as sementes, os medicamentos, o conhecimento das propriedades da fauna e da flora, as transmissões orais, as literaturas, os desenhos, os esportes, os jogos e as artes visuais e interpretativas. (Declaração das Nações Unidas sobre os Direitos dos Povos Indígenas. 107ª Sessão Plenária, 13 de setembro de 2007. Disponível em: www.un.org. Acesso em: 18 abr. 2015 (adaptado). ) Os direitos reconhecidos no texto representam a",
+        "alternatives": [
+            "A - multiplicidade dos troncos linguísticos.",
+            "B - ampliação das influências externas.",
+            "C - complexidade dos saberes tradicionais.",
+            "D - sofisticação das práticas de sobrevivência.",
+            "E - diversificação da economia de subsistência."
+        ],
+        "answer": "C",
+        "tags" :[
+            "Povos originários",
+            "Cultura/Tradição",
+            "Contemporaniedade",
+            "Preservação dos saberes tradicionais"
+        ]
+    },
+
+    {
+        "questao_id":"enem_25_1Dia_Q83",
+        "vestibular" : "ENEM",
+        "year": 2025,
+        "fase": "1° Dia",
+        "number": 83,
+        "subject": "Ciências Humanas",
+        "period": "Período Colonial",
+        "statement": "A Impressão Régia do Rio de Janeiro foi criada pelo decreto de 13 de maio de 1808 para dar continuidade à nova sede do império português. A nova tipografia é criada em um momento no qual o projeto de reforma do império se transforma em um projeto de construção de um novo império português na América. Frente às tensões políticas que essa nova situação criava, a tipografia atuou na legitimação e sustentação daquele projeto político.( BARRA, S. H. S. A Impressão Régia do Rio de Janeiro e a colonização dos sertões na construção do novo império português na América (1808-1822). Topoi, n. 31, jul.-dez. 2015 (adaptado).) A função política da tecnologia mencionada no texto favoreceu a nova sede do Império português por",
+        "alternatives": [
+            "A - estabelecer as normativas ideológicas aos periódicos.",
+            "B - propagar as diretrizes administrativas às capitanias.",
+            "C - divulgar as conquistas às metrópoles europeias.",
+            "D - integrar as regiões territoriais ao poder central.",
+            "E - difundir as publicações às elites lusitanas."
+        ],
+        "answer": "D",
+        "tags" :[
+            "Família Real Portuguesa no Brasil",
+            "Metrópole e Colônia",
+            "Colonização"
+        ]
+    }
+]
