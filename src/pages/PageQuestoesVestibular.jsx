@@ -51,7 +51,7 @@ function PageQuestoesVestibular () {
 
         const periodMatch =
         period === 'All' ||
-        question.perido === period;
+        question.period === period;
 
         const tagsMatch =
             tagsSelected.every((tag) =>

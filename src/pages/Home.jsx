@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../css/Home.css'
 import cardsHome from '../data/contentCards';
-import CardsContent from '../components/Card';
+import CardsContent from '../components/CardHome';
 
 
 function Home() {
