@@ -1,0 +1,53 @@
+
+.page-questions {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+
+.page-questions h1 {
+    margin-bottom: 10px;
+}
+
+.intro-questions {
+    color: #666;
+    margin-bottom: 35px;
+}
+
+.result {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.questions-list {
+    margin-top: 10px;
+}
+
+
+.none-result {
+    padding: 40px 20px;
+    text-align: center;
+    color: #666;
+}
+
+.none-result h4 {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+
+    .page-questions {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .page-questions h1 {
+        font-size: 2rem;
+    }
+
+    .intro-questions {
+        margin-bottom: 25px;
+    }
+
+}
+

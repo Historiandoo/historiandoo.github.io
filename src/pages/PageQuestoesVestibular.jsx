@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 import questions from '../data/dataQuestoesVestibular.json';
+import CardQuestaoVestibular from '../components/CardQuestoesVestibular';
+import FilterQuestion from '../components/FilterQuestoes';
 
 function PageQuestoesVestibular () {
     const [search, setSearch] = useState('');
@@ -38,7 +40,7 @@ function PageQuestoesVestibular () {
             question.statement.toLowerCase().includes(searchText) ||
             question.period.toLowerCase().includes(searchText) ||
             question.vestibular.toLowerCase().includes(searchText) ||
-            question.tag.some((tag) => tag.toLowerCase().includes(searchText)
+            question.tags.some((tag) => tag.toLowerCase().includes(searchText)
         );
 
         const vestibularMatch =
@@ -46,8 +48,9 @@ function PageQuestoesVestibular () {
         question.vestibular === vestibular;
 
         const yearMatch =
+        year === '' ||
         year === 'All' ||
-        question.year === year;
+        question.year === Number(year);
 
         const periodMatch =
         period === 'All' ||
@@ -67,5 +70,79 @@ function PageQuestoesVestibular () {
         );
 
     });
-    
+
+     return (
+
+        <main className="container page-questions">
+
+            <div className="content-page">
+
+                <h1 className="text-center mb-3">
+                    Banco de Questões
+                </h1>
+
+                <p className="text-center intro-questions">
+                    Teste seus conhecimentos em História
+                    com questões de vestibulares.
+                </p>
+
+                <FilterQuestion
+                    search={search}
+                    setSearch={setSearch}
+                    vestibular={vestibular}
+                    setVestibular={setVestibular}
+                    year={year}
+                    setYear={setYear}
+                    period={period}
+                    setPeriod={setPeriod}
+                    tagsSelected={tagsSelected}
+                    toogleTag={toogleTag}
+                    tagsAvailable={tagsAvailable}
+                    cleanFilters={cleanFilters}
+                />
+
+                <p className="result">
+                    {filterQuestions.length} questão(ões) encontrada(s)
+                </p>
+
+                <div className="row g-4">
+
+                    {filterQuestions.map((question) => (
+
+                        <div
+                            className="col-12 col-md-6"
+                            key={questions.question_id}
+                        >
+                            <CardQuestaoVestibular question={question} />
+                        </div>
+
+                    ))}
+
+                </div>
+
+
+                {filterQuestions.length === 0 && (
+
+                    <div className="text-center mt-5">
+
+                        <h4>Nenhuma questão encontrada.</h4>
+
+                        <p>
+                            Tente modificar os filtros ou buscar outro tema.
+                        </p>
+
+                    </div>
+
+                )}
+
+            </div>
+
+        </main>
+
+    );
+
 }
+
+export default PageQuestoesVestibular;
+    
+

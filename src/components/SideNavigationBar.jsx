@@ -55,7 +55,7 @@ function SideNavigationBar() {
                         <i className="fa fa-fw fa-search"></i> Pesquisar
                     </a>
 
-                    <a className="nav-link mb-3" href="#">
+                    <a className="nav-link mb-3" to="/questoesVestibular">
                         <i className="fa fa-fw fa-question"></i> Perguntas
                     </a>
 
@@ -82,7 +82,7 @@ function SideNavigationBar() {
                     <i className="fa fa-fw fa-search" title="Pesquisar"></i>
                 </a>
 
-                <a href="#">
+                <a href="/questoesVestibular">
                     <i className="fa fa-fw fa-question" title="Perguntas"></i>
                 </a>
 
