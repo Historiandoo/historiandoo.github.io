@@ -28,7 +28,7 @@ function CardQuestaoVestibular ({question}) {
                 </p>
 
                 <p className="card-text">
-                    <strong>Período Histórico:</strong> {''}
+                    <strong>Período Histórico: </strong> {''}
                     {question.period}
                 </p>
 

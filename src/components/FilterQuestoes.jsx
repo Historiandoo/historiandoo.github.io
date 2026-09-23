@@ -2,7 +2,7 @@ import React from 'react';
 
 import '../css/FilterQuestions.css';
 
-function FilterQuestion({ search, setSearch, vestibular, setVestibular, year, setYear, period, setPeriod, tagsSelected, toogleTag, tagsAvailable, clearFilters}) {
+function FilterQuestion({ search, setSearch, vestibular, setVestibular, year, setYear, period, setPeriod, tagsSelected, toogleTag, tagsAvailable, cleanFilters}) {
 
     return (
         <div className="filters-questions mb-4">
@@ -146,7 +146,7 @@ function FilterQuestion({ search, setSearch, vestibular, setVestibular, year, se
             <button
                 type="button"
                 className="btn btn-outline-secondary mt-3"
-                onClick={clearFilters}
+                onClick={cleanFilters}
             >
                 Limpar filtros
             </button>
