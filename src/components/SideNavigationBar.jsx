@@ -78,7 +78,7 @@ export default function SideNavigationBar() {
                     <i className="fa fa-fw fa-home" title="Home"></i>
                 </Link>
 
-                <a href="#">
+                <a href="#"> {/*trocar para Link*/}
                     <i className="fa fa-fw fa-search" title="Pesquisar"></i>
                 </a>
 
