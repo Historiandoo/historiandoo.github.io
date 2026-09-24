@@ -82,9 +82,9 @@ export default function SideNavigationBar() {
                     <i className="fa fa-fw fa-search" title="Pesquisar"></i>
                 </a>
 
-                <a href="/questoesVestibular">
+                <Link to="/questoesVestibular">
                     <i className="fa fa-fw fa-question" title="Questões"></i>
-                </a>
+                </Link>
 
                 <a href="#">
                     <i className="fa fa-fw fa-book" title="Conteúdo"></i>
