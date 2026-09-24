@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import '../css/CardQuestoesVestibular.css';
+import '../../css/CardQuestoesVestibular.css';
 
-function CardQuestaoVestibular ({question}) {
+export default function CardQuestaoVestibular ({question}) {
 
     return (
         <div className="card card-question h-100">
@@ -32,7 +32,7 @@ function CardQuestaoVestibular ({question}) {
                     {question.period}
                 </p>
 
-                <div className="tags-conatiner"mb-3>
+                <div className="tags-container mb-3">
                     {question.tags.map((tag) => (
                         
                         <span className="tag" key={tag}>
@@ -41,7 +41,7 @@ function CardQuestaoVestibular ({question}) {
                     ))}
                 </div>
 
-                <Link to={`/questions/${question.question_id}`} className="btn btn-primary mt-auto">
+                <Link to={`/questaoResponder/${question.question_id}`} className="btn btn-primary mt-auto">
                     Respoder questão
                 </Link>
 
@@ -50,5 +50,3 @@ function CardQuestaoVestibular ({question}) {
         </div>
     );
 }
-
-export default CardQuestaoVestibular;

@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/SideNavigationBar.css';
 import { Link } from 'react-router-dom';
 
-function SideNavigationBar() {
+export default function SideNavigationBar() {
     return (
         <>
             <link
@@ -51,21 +51,21 @@ function SideNavigationBar() {
                         <i className="fa fa-fw fa-home"></i> Home
                     </Link>
 
-                    <a className="nav-link mb-3" href="#">
+                    <Link className="nav-link mb-3" href="#">
                         <i className="fa fa-fw fa-search"></i> Pesquisar
-                    </a>
+                    </Link>
 
-                    <a className="nav-link mb-3" to="/questoesVestibular">
-                        <i className="fa fa-fw fa-question"></i> Perguntas
-                    </a>
+                    <Link className="nav-link mb-3" to="/questoesVestibular">
+                        <i className="fa fa-fw fa-question"></i> Questões
+                    </Link>
 
-                    <a className="nav-link mb-3" href="#">
+                    <Link className="nav-link mb-3" href="#">
                         <i className="fa fa-fw fa-book"></i> Conteúdo
-                    </a>
+                    </Link>
 
-                    <a className="nav-link" href="#">
+                    <Link className="nav-link" href="#">
                         <i className="fa fa-fw fa-map"></i> Mapa Mental
-                    </a>
+                    </Link>
 
                 </div>
 
@@ -83,7 +83,7 @@ function SideNavigationBar() {
                 </a>
 
                 <a href="/questoesVestibular">
-                    <i className="fa fa-fw fa-question" title="Perguntas"></i>
+                    <i className="fa fa-fw fa-question" title="Questões"></i>
                 </a>
 
                 <a href="#">
@@ -98,5 +98,3 @@ function SideNavigationBar() {
         </>
     );
 }
-
-export default SideNavigationBar;

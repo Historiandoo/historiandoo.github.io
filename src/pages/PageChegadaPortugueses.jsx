@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/PageChegadaPortugueses.css';
 import content from '../data/textChegadaPortugueses.json';
 
-function PageChegadaPortugueses() {
+export default function PageChegadaPortugueses() {
 
     return (
         <>
@@ -20,5 +20,3 @@ function PageChegadaPortugueses() {
         </>
     )
 }
-
-export default PageChegadaPortugueses;

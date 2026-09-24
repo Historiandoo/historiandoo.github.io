@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/PageChegadaPortugueses.css';
 import content from '../data/textAntecedentesPreColonial.json';
 
-function PageAntecedentesPreColonial() {
+export default function PageAntecedentesPreColonial() {
 
     return (
         <>
@@ -21,5 +21,3 @@ function PageAntecedentesPreColonial() {
         </>
     )
 }
-
-export default PageAntecedentesPreColonial;

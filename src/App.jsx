@@ -7,6 +7,7 @@ import PageCartaPeroVaz from './pages/PageCartaPeroVaz';
 import PageAntecedentesPreColonial from './pages/PageAntecedentesPreColonial';
 import Home from './pages/Home';
 import PageQuestoesVestibular from './pages/PageQuestoesVestibular';
+import PageResponderQuestao from './pages/PageResponderQuestão';
 import '../src/css/App.css'
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
           <Route path="/cartaPeroVaz" element={<PageCartaPeroVaz/>}/>
           <Route path="/antecedentesPreColonial" element={<PageAntecedentesPreColonial/>}/>
           <Route path="/questoesVestibular" element={<PageQuestoesVestibular/>}/>
+          <Route path="/questaoResponder/:id" element={<PageResponderQuestao/>}/>
+          
 
         </Routes>
       </div>

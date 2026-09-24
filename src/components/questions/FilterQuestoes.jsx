@@ -1,8 +1,8 @@
 import React from 'react';
 
-import '../css/FilterQuestions.css';
+import '../../css/FilterQuestions.css';
 
-function FilterQuestion({ search, setSearch, vestibular, setVestibular, year, setYear, period, setPeriod, tagsSelected, toogleTag, tagsAvailable, cleanFilters}) {
+export default function FilterQuestion({ search, setSearch, vestibular, setVestibular, year, setYear, period, setPeriod, tagsSelected, toogleTag, tagsAvailable, cleanFilters}) {
 
     return (
         <div className="filters-questions mb-4">
@@ -155,4 +155,3 @@ function FilterQuestion({ search, setSearch, vestibular, setVestibular, year, se
     );
 }
 
-export default FilterQuestion;

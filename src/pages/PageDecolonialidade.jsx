@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/PageChegadaPortugueses.css';
 import content from '../data/textDecolonialidade.json';
 
-function PageDecolonialidade() {
+export default function PageDecolonialidade() {
 
     return (
         <>
@@ -21,5 +21,3 @@ function PageDecolonialidade() {
         </>
     )
 }
-
-export default PageDecolonialidade;

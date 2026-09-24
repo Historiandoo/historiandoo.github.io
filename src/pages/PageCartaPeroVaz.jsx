@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/PageChegadaPortugueses.css';
 import content from '../data/textCartaPeroVaz.json';
 
-function PageCartaPeroVaz() {
+export default function PageCartaPeroVaz() {
 
     return (
         <>
@@ -21,5 +21,3 @@ function PageCartaPeroVaz() {
         </>
     )
 }
-
-export default PageCartaPeroVaz;

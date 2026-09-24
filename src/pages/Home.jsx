@@ -5,7 +5,7 @@ import cardsHome from '../data/contentCards';
 import CardsContent from '../components/CardHome';
 
 
-function Home() {
+export default function Home() {
 
     return (
     <>
@@ -46,5 +46,3 @@ function Home() {
     </>
     ); 
 }
-
-export default Home;

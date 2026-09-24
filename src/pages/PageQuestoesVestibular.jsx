@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import questions from '../data/dataQuestoesVestibular.json';
-import CardQuestaoVestibular from '../components/CardQuestoesVestibular';
-import FilterQuestion from '../components/FilterQuestoes';
+import CardQuestaoVestibular from '../components/questions/CardQuestoesVestibular';
+import FilterQuestion from '../components/questions/FilterQuestoes';
 
-function PageQuestoesVestibular () {
+export default function PageQuestoesVestibular () {
     const [search, setSearch] = useState('');
     const [vestibular, setVestibular] = useState('All');
     const [year, setYear] = useState('All');
@@ -142,7 +142,4 @@ function PageQuestoesVestibular () {
     );
 
 }
-
-export default PageQuestoesVestibular;
-    
 
