@@ -2,6 +2,7 @@ import caravela from '../assets/caravela.png';
 import decolonialidade from '../assets/decolonialidade.png';
 import cartaPeroVaz from '../assets/cartaPeroVaz.png';
 import antecedentesPreColonial from '../assets/antecedentesPreColonial.png';
+import pleistoceno from '../assets/pleistoceno.png';
 
 const cardsHome = [
 
@@ -35,6 +36,14 @@ const cardsHome = [
         description: "Como se deu o início de tudo",
         image: antecedentesPreColonial,
         route: "/antecedentesPreColonial"
+    },
+
+    {
+        id: 5,
+        title: "Pleistoceno e a Megafauna",
+        description: "A popularmente conhecida 'Era do Gelo' !",
+        image: pleistoceno,
+        route: "/pleistoceno"
     }
 ]
 
