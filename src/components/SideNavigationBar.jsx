@@ -63,10 +63,6 @@ export default function SideNavigationBar() {
                         <i className="fa fa-fw fa-book"></i> Conteúdo
                     </Link>
 
-                    <Link className="nav-link" href="#">
-                        <i className="fa fa-fw fa-map"></i> Mapa Mental
-                    </Link>
-
                 </div>
 
             </div>
@@ -88,10 +84,6 @@ export default function SideNavigationBar() {
 
                 <Link to="#">
                     <i className="fa fa-fw fa-book" title="Conteúdo"></i>
-                </Link>
-
-                <Link to="#">
-                    <i className="fa fa-fw fa-map" title="Mapa Mental"></i>
                 </Link>
 
             </div>

@@ -23,7 +23,7 @@ export default function CardQuestaoVestibular ({question}) {
                     Questão {question.number}
                 </h5>
 
-                <p className="texte-muted">
+                <p className="text-muted">
                     {question.fase} • {question.subject}
                 </p>
 
@@ -42,7 +42,7 @@ export default function CardQuestaoVestibular ({question}) {
                 </div>
 
                 <Link to={`/questaoResponder/${question.question_id}`} className="btn btn-primary mt-auto">
-                    Respoder questão
+                    Responder questão
                 </Link>
 
             </div>

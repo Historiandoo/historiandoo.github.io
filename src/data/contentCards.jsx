@@ -4,7 +4,7 @@ import cartaPeroVaz from '../assets/cartaPeroVaz.png';
 import antecedentesPreColonial from '../assets/antecedentesPreColonial.png';
 import pleistoceno from '../assets/pleistoceno.png';
 
-const cardsHome = [
+const cardsData = [
 
     {
         id: 1,
@@ -47,4 +47,4 @@ const cardsHome = [
     }
 ]
 
-export default cardsHome;
+export default cardsData;

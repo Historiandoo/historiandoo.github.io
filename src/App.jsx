@@ -9,6 +9,7 @@ import Home from './pages/Home';
 import PageQuestoesVestibular from './pages/PageQuestoesVestibular';
 import PageResponderQuestao from './pages/PageResponderQuestão';
 import PagePleistoceno from './pages/PagePleistoceno';
+import PageMapaMental from './pages/PageMapaMental';
 import '../src/css/App.css'
 
 function App() {
@@ -28,6 +29,8 @@ function App() {
           <Route path="/questoesVestibular" element={<PageQuestoesVestibular/>}/>
           <Route path="/questaoResponder/:id" element={<PageResponderQuestao/>}/>
           <Route path="/pleistoceno" element={<PagePleistoceno/>}/>
+          <Route path="/mapaMental" element={<PageMapaMental/>}/>
+          
           
 
         </Routes>

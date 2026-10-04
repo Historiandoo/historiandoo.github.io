@@ -13,3 +13,80 @@
     padding: 16px;
     position: relative;
 }
+
+.home-section {
+    margin-bottom: 60px;
+}
+
+.section-title {
+    color: #19063a;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.map-card {
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.map-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.map-card:hover img {
+    transform: scale(1.03);
+}
+
+@media (max-width: 767px) {
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    #banner {
+        height: 130px;
+    }
+
+}
+
+@media (max-width: 575px) {
+
+    .section-title {
+        font-size: 22px;
+    }
+
+    #banner {
+        height: 110px;
+    }
+
+    .home-section {
+        margin-bottom: 40px;
+    }
+
+}
+
+.map-card {
+    display: block;
+    overflow: hidden;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.map-card img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+
+    transition: transform 0.3s ease;
+}
+
+.map-card:hover img {
+    transform: scale(1.03);
+}
