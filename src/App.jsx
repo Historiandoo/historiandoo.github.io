@@ -10,6 +10,7 @@ import PageQuestoesVestibular from './pages/PageQuestoesVestibular';
 import PageResponderQuestao from './pages/PageResponderQuestão';
 import PagePleistoceno from './pages/PagePleistoceno';
 import PageMapaMental from './pages/PageMapaMental';
+import PageFeedback from './pages/PageFeedback';
 import '../src/css/App.css'
 
 function App() {
@@ -30,9 +31,7 @@ function App() {
           <Route path="/questaoResponder/:id" element={<PageResponderQuestao/>}/>
           <Route path="/pleistoceno" element={<PagePleistoceno/>}/>
           <Route path="/mapaMental" element={<PageMapaMental/>}/>
-          
-          
-
+          <Route path="/feedback" element={<PageFeedback/>}/>
         </Routes>
       </div>
      
