@@ -21,7 +21,7 @@ export default function PageResponderQuestao () {
 
     if (!question) {
         return (
-            <main className="conatiner page-question">
+            <div className="conatiner page-question">
                 <div className="content-page text-center">
                     <h1> Questão não encontrada !</h1>
 
@@ -31,7 +31,7 @@ export default function PageResponderQuestao () {
                         Voltar para questões
                     </Link>
                 </div>
-            </main>
+            </div>
         );
     }
 
@@ -47,7 +47,7 @@ export default function PageResponderQuestao () {
     const isCorrect = selectedAlternative === question.answer;
 
     return (
-        <main className="container page-question">
+        <div className="container page-question">
             <div className="content-page">
                 <Link to="/questoesVestibular" className="back-question">
                      ← Voltar para questões
@@ -83,7 +83,7 @@ export default function PageResponderQuestao () {
                 )
                 }
             </div>
-        </main>
+        </div>
     );
 }
 

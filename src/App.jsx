@@ -1,5 +1,4 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Link, Routes, Route } from 'react-router-dom';
 import SideNavigationBar from './components/SideNavigationBar';
 import PageChegadaPortugueses from './pages/PageChegadaPortugueses';
 import PageDecolonialidade from './pages/PageDecolonialidade';
@@ -11,16 +10,20 @@ import PageResponderQuestao from './pages/PageResponderQuestão';
 import PagePleistoceno from './pages/PagePleistoceno';
 import PageMapaMental from './pages/PageMapaMental';
 import PageFeedback from './pages/PageFeedback';
-import '../src/css/App.css'
+import ScrollToLocation from './components/ScrollToLocation';
+import logo from './assets/brand/logo.svg';
+import './css/App.css';
 
 function App() {
   
   return (
   
     <>
+      <a className="skip-link" href="#main-content">Pular para o conteúdo</a>
+      <ScrollToLocation />
       <SideNavigationBar/>
       
-      <div className='main-content'>
+      <main className='main-content' id="main-content" tabIndex={-1}>
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/chegadaPortuguesesBrasil" element={<PageChegadaPortugueses/>}/>
@@ -33,7 +36,8 @@ function App() {
           <Route path="/mapaMental" element={<PageMapaMental/>}/>
           <Route path="/feedback" element={<PageFeedback/>}/>
         </Routes>
-      </div>
+      </main>
+      <footer className="site-footer"><span>Cada história, uma nova descoberta.</span><Link to="/" aria-label="Historiando — início"><img src={logo} alt="Historiando Pindorama" /></Link><span>Explore. Questione. Aprenda.</span></footer>
      
     </>
 

@@ -1,100 +1,25 @@
-import React from 'react';
+import { useState } from 'react';
+import { Link, NavLink, useLocation } from 'react-router-dom';
+import logo from '../assets/brand/logo.svg';
+import symbol from '../assets/brand/symbol.svg';
 import '../css/SideNavigationBar.css';
-import { Link } from 'react-router-dom';
 
 export default function SideNavigationBar() {
+    const [open, setOpen] = useState(false);
+    const { pathname, hash } = useLocation();
+    const close = () => setOpen(false);
     return (
-        <>
-            <link
-                rel="stylesheet"
-                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-            />
-
-            {/* navbar como btn sanduíche(toggler) no header da página */}
-            <nav className="navbar navbar-dark bg-dark d-sm-none">
-                <div className="container-fluid">
-
-                    <button
-                        className="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="offcanvas"
-                        data-bs-target="#mobileSidebar"
-                    >
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-
-                </div>
+        <header className="site-header">
+            <Link className="brand" to="/" onClick={close} aria-label="Historiando — início"><img src={logo} alt="Historiando Pindorama" /></Link>
+            <button className="menu-toggle" type="button" aria-expanded={open} aria-controls="site-navigation" onClick={() => setOpen(!open)}>{open ? 'Fechar ×' : 'Menu ☰'}</button>
+            <nav id="site-navigation" className={`site-navigation ${open ? 'is-open' : ''}`} aria-label="Navegação principal">
+                <Link to="/" onClick={close} className={pathname === '/' && !hash ? 'active' : ''}>Início</Link>
+                <Link to="/#conteudos" onClick={close} className={hash === '#conteudos' ? 'active' : ''}>Conteúdos</Link>
+                <NavLink to="/questoesVestibular" onClick={close}>Questões</NavLink>
+                <Link to="/#mapas-mentais" onClick={close} className={hash === '#mapas-mentais' || pathname === '/mapaMental' ? 'active' : ''}>Mapas mentais</Link>
+                <NavLink to="/feedback" onClick={close}>Feedback</NavLink>
             </nav>
-
-            {/* navbar exposta no mobile*/}
-            <div
-                className="offcanvas offcanvas-start"
-                tabIndex="-1"
-                id="mobileSidebar"
-            >
-
-                <div className="offcanvas-header">
-
-                    <h5>Historiando</h5>
-
-                    <button
-                        type="button"
-                        className="btn-close"
-                        data-bs-dismiss="offcanvas"
-                    ></button>
-
-                </div>
-
-                <div className="offcanvas-body">
-
-                    <Link className="nav-link mb-3"  to="/" >
-                        <i className="fa fa-fw fa-home"></i> Home
-                    </Link>
-
-                    <Link className="nav-link mb-3" href="#">
-                        <i className="fa fa-fw fa-search"></i> Pesquisar
-                    </Link>
-
-                    <Link className="nav-link mb-3" to="/questoesVestibular">
-                        <i className="fa fa-fw fa-question"></i> Questões
-                    </Link>
-
-                    <Link className="nav-link mb-3" href="#">
-                        <i className="fa fa-fw fa-book"></i> Conteúdo
-                    </Link>
-
-                    <Link className="nav-link mb-3" href="/feedback">
-                        <i className="fa fa-fw fa-commenting"></i> Feedback
-                    </Link>
-
-                </div>
-
-            </div>
-
-            {/* navbar em dimensões desktop */}
-            <div className="sidenav d-none d-sm-block"> {/*esse d-sm-block significa que em dimensões small a navbar vai conseguir se tornar um "bloco" maleável*/}
-
-                <Link to="/">
-                    <i className="fa fa-fw fa-home" title="Home"></i>
-                </Link>
-
-                <Link to="#"> 
-                    <i className="fa fa-fw fa-search" title="Pesquisar"></i>
-                </Link>
-
-                <Link to="/questoesVestibular">
-                    <i className="fa fa-fw fa-question" title="Questões"></i>
-                </Link>
-
-                <Link to="#">
-                    <i className="fa fa-fw fa-book" title="Conteúdo"></i>
-                </Link>
-
-                <Link to="/feedback">
-                    <i className="fa fa-fw fa-commenting" title="Feedback"></i>
-                </Link>
-
-            </div>
-        </>
+            <span className="header-motto"><img src={symbol} alt="" /> Cada história, uma descoberta.</span>
+        </header>
     );
 }

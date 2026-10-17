@@ -1,23 +1,10 @@
-import { Link } from "react-router-dom";
-import '../css/Cards.css'
+import { Link } from 'react-router-dom';
 
-export default function CardsContent ({title, image, description, route}) {
-
+export default function CardsContent({ id, title, image, description, route }) {
     return (
-        <div className='card h-100'>
-
-            <img src={image} 
-            className='card-img-top' 
-            alt='Imagem'
-            />
-            
-            <div className='card-body'>
-                <h5 className='card-title text center'>{title}</h5>
-                <p className='card-text'>{description || "\u00A0"}</p>
-                <Link className='btn btn-primary' to={route}>Veja mais aqui!</Link>
-            </div>
-
-        </div>
+        <Link className="discovery-card" to={route}>
+            <div className="discovery-art"><img src={image} alt="" loading="lazy" /><span className="chapter-number">{String(id).padStart(2, '0')}</span></div>
+            <div className="discovery-body"><p className="eyebrow">Explore a história</p><h3>{title}</h3><p>{description}</p><span className="card-action">Explorar conteúdo <span aria-hidden="true">↗</span></span></div>
+        </Link>
     );
-
 }

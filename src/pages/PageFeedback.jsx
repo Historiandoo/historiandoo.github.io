@@ -3,7 +3,7 @@ import FeedbackForm from "../components/FeedbackForm.jsx";
 export default function PageFeedback() {
 
     return (
-        <main className="content-page feedback-page">
+        <div className="content-page feedback-page">
 
             <h1>Feedback</h1>
 
@@ -15,6 +15,6 @@ export default function PageFeedback() {
 
             <FeedbackForm />
 
-        </main>
+        </div>
     );
 }

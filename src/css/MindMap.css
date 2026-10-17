@@ -1,0 +1,28 @@
+.map-page { padding-top: 36px; }
+.map-page > .back-question { display: inline-block; margin-bottom: 28px; }
+.map-page .section-heading { align-items: center; }
+.map-page .section-heading > div { max-width: 780px; }
+.map-page .comic-button { white-space: nowrap; }
+.map-tabs { display: flex; gap: 12px; margin: 30px 0; flex-wrap: wrap; }
+.map-tabs a { color: var(--cream); text-decoration: none; border: 1px solid #dac7a755; padding: 8px 16px; font-size: 17px; }
+.map-tabs a[aria-current=page], .map-tabs a:hover { background: var(--ochre); color: var(--ink); border-color: var(--ochre); }
+.mind-map { position: relative; isolation: isolate; display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 38px 56px; padding: 40px 28px; border: 2px solid #dac7a765; background: #241032; background-image: radial-gradient(#dac7a720 1px, transparent 1px); background-size: 14px 14px; }
+.map-connections { position: absolute; width: 100%; height: 100%; inset: 0; z-index: -1; }
+.map-connections path { fill: none; stroke: var(--ochre); stroke-width: 3; }
+.map-center { grid-column: 2; grid-row: 1 / 3; align-self: center; background: var(--terra); color: var(--ink); padding: 20px; border: 3px solid var(--ink); box-shadow: 6px 6px 0 #0d0019; transform: rotate(-2deg); text-align: center; }
+.map-center .eyebrow { color: var(--ink); font-size: 12px; letter-spacing: 1px; }
+.map-center h2 { font-size: clamp(24px, 2.5vw, 36px); line-height: 1.08; margin: 0 0 20px; }
+.map-center img { width: 100%; aspect-ratio: 1.25; object-fit: cover; border: 2px solid var(--ink); }
+.map-node { background: var(--cream); color: var(--ink); padding: 24px 22px; position: relative; border: 3px solid var(--ink); box-shadow: 6px 6px 0 #0d0019; align-self: center; }
+.map-node-0 { grid-column: 1; grid-row: 1; } .map-node-1 { grid-column: 3; grid-row: 1; background: var(--ochre); } .map-node-2 { grid-column: 1; grid-row: 2; background: var(--ochre); } .map-node-3 { grid-column: 3; grid-row: 2; }
+.map-node h3 { font-size: 28px; line-height: 1.1; margin-bottom: 16px; padding-right: 24px; }
+.map-node p, .map-node li { font-size: 20px; line-height: 1.4; }
+.map-node p, .map-node ul { margin: 0; }
+.map-node ul { padding-left: 20px; }
+.map-node li + li { margin-top: 6px; }
+.node-number { position: absolute; top: 8px; right: 10px; font-family: 'Historiando Mosaico', sans-serif; font-size: 20px; opacity: .45; }
+.map-reading-link { display: flex; justify-content: space-between; align-items: center; gap: 20px; margin: 36px 0; }
+.map-reading-link p { margin: 0; }
+@media(max-width: 1000px) and (min-width: 761px) { .mind-map { gap: 25px 18px; padding: 24px 18px; } .map-node { padding: 18px 14px; } .map-node h3 { font-size: 24px; } .map-node p, .map-node li { font-size: 18px; } .map-center { padding: 14px; } }
+@media(max-width: 760px) { .mind-map { grid-template-columns: 1fr; grid-template-rows: auto; gap: 28px; padding: 28px 18px; } .map-center { grid-column: 1; grid-row: 1; transform: none; } .map-center img { max-width: 250px; max-height: 165px; } .map-node { grid-column: 1; grid-row: auto; } .map-node::before { content: ''; position: absolute; width: 3px; height: 32px; left: calc(50% - 1px); top: -32px; background: var(--ochre); z-index: -1; } .map-connections { display: none; } .map-tabs { flex-direction: column; } .map-reading-link { flex-direction: column; align-items: flex-start; } .map-center h2 { font-size: 32px; } }
+@media print { .site-header, .site-footer, .map-tabs, .map-reading-link, .back-question, .skip-link, .section-heading .comic-button { display: none !important; } .main-content { padding: 0; } .mind-map { break-inside: avoid; } body { print-color-adjust: exact; -webkit-print-color-adjust: exact; } }

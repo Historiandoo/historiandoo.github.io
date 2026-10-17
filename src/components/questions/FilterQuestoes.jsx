@@ -11,12 +11,13 @@ export default function FilterQuestion({ search, setSearch, vestibular, setVesti
 
             <div className="mb-4">
 
-                <label className="form-label">
+                <label className="form-label" htmlFor="question-search">
                     Pesquisar
                 </label>
 
                 <input
                     type="text"
+                    id="question-search"
                     className="form-control"
                     placeholder="Buscar por tema, vestibular ou palavra-chave..."
                     value={search}
@@ -29,16 +30,17 @@ export default function FilterQuestion({ search, setSearch, vestibular, setVesti
 
                 <div className="col-md-4">
 
-                    <label className="form-label">
+                    <label className="form-label" htmlFor="filter-vestibular">
                         Vestibular
                     </label>
 
                     <select
                         className="form-select"
+                        id="filter-vestibular"
                         value={vestibular}
                         onChange={(e) => setVestibular(e.target.value)}
                     >
-                        <option value="Todos">
+                        <option value="All">
                             Todos
                         </option>
 
@@ -60,7 +62,7 @@ export default function FilterQuestion({ search, setSearch, vestibular, setVesti
 
                 <div className="col-md-4">
 
-                    <label className="form-label">
+                    <label className="form-label" htmlFor="filter-year">
                         Ano
                     </label>
 
@@ -68,6 +70,7 @@ export default function FilterQuestion({ search, setSearch, vestibular, setVesti
                         type="number"
                         className="form-control"
                         placeholder="Digite o ano"
+                        id="filter-year"
                         value={year === 'All' ? '' : year}
                         onChange={(e) => setYear(e.target.value)}
                         min="1998"
@@ -84,11 +87,12 @@ export default function FilterQuestion({ search, setSearch, vestibular, setVesti
 
                     <select
                         className="form-select"
+                        id="filter-period"
                         value={period}
                         onChange={(e) => setPeriod(e.target.value)}
                     >
 
-                        <option value="Todos">
+                        <option value="All">
                             Todos
                         </option>
 
@@ -96,7 +100,7 @@ export default function FilterQuestion({ search, setSearch, vestibular, setVesti
                             Brasil Pré-colonial
                         </option>
 
-                        <option value="Brasil Colonial">
+                        <option value="Período Colonial">
                             Brasil Colonial
                         </option>
 
@@ -132,6 +136,7 @@ export default function FilterQuestion({ search, setSearch, vestibular, setVesti
                                     ? 'selected'
                                     : ''
                             }`}
+                            aria-pressed={tagsSelected.includes(tag)}
                             onClick={() => toogleTag(tag)}
                         >
                             {tag}

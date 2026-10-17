@@ -73,7 +73,7 @@ export default function PageQuestoesVestibular () {
 
      return (
 
-        <main className="container page-questions">
+        <div className="container page-questions">
 
             <div className="content-page">
 
@@ -137,7 +137,7 @@ export default function PageQuestoesVestibular () {
 
             </div>
 
-        </main>
+        </div>
 
     );
 

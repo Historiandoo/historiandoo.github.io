@@ -1,8 +1,8 @@
-import caravela from '../assets/caravela.png';
-import decolonialidade from '../assets/decolonialidade.png';
-import cartaPeroVaz from '../assets/cartaPeroVaz.png';
-import antecedentesPreColonial from '../assets/antecedentesPreColonial.png';
-import pleistoceno from '../assets/pleistoceno.png';
+import caravela from '../assets/illustrations/caravela.svg';
+import decolonialidade from '../assets/illustrations/decolonialidade.svg';
+import cartaPeroVaz from '../assets/illustrations/carta.svg';
+import antecedentesPreColonial from '../assets/illustrations/pre-colonial.svg';
+import pleistoceno from '../assets/illustrations/pleistoceno.svg';
 
 const cardsData = [
 
