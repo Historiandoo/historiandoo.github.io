@@ -8,7 +8,7 @@ export default function PageFeedback() {
             <h1>Feedback</h1>
 
             <p>
-                Sua opinião ajuda a melhorar o Historiando.
+                Sua opinião ajuda a melhorar o Historiando 🧡
                 Avalie o site ou relate algum problema que
                 você encontrou.
             </p>
