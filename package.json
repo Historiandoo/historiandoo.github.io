@@ -4,6 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "test": "node --test tests/site-features.test.mjs",
+    "db:build": "python scripts/build-question-bank.py",
     "dev": "vite",
     "build": "vite build",
     "deploy": "gh-pages -d dist",
@@ -18,11 +20,13 @@
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-router-dom": "^7.14.2",
+    "sql.js": "^1.15.1",
     "yup": "^1.7.1"
   },
   "devDependencies": {
     "@babel/core": "^7.29.0",
     "@eslint/js": "^9.39.4",
+    "@napi-rs/canvas": "^1.0.11",
     "@rolldown/plugin-babel": "^0.2.1",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",

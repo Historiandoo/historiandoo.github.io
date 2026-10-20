@@ -5,7 +5,7 @@ import cardsData from '../data/contentCards';
 import CardsContent from '../components/Cards';
 import CardQuestaoVestibular from '../components/questions/CardQuestoesVestibular';
 import CardMap from '../components/CardsMapasMentais';
-import questionsData from '../data/dataQuestoesVestibular.json';
+import questionsData from '../data/featuredQuestions.json';
 import mapsData from '../data/contentMaps';
 import portal from '../assets/illustrations/portal.svg';
 
@@ -43,7 +43,7 @@ export default function Home() {
             </section>
             <section id="questoes" className="home-section questions-section">
                 <div className="section-heading"><div><p className="eyebrow">Conhecimento em ação</p><h2>Seu próximo desafio<span></span></h2></div><Link to="/questoesVestibular" className="text-link">Ver todas as questões ↗</Link></div>
-                <div className="question-grid">{questionsData.map(question => <CardQuestaoVestibular key={question.question_id} question={question} />)}</div>
+                <div className="question-grid">{questionsData.map(question => <CardQuestaoVestibular key={question.id} question={question} />)}</div>
             </section>
             <aside className="closing-note"><span aria-hidden="true">✦</span><p>Para aprender mais,<br /><strong>sempre pesquise.</strong></p><Link to="/feedback" className="comic-button secondary">Compartilhe sua opinião ↗</Link></aside>
         </div>

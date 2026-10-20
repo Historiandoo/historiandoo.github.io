@@ -8,6 +8,11 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+.cache/
+__pycache__/
+*.py[cod]
+test-results/
+playwright-report/
 dist
 dist-ssr
 *.local

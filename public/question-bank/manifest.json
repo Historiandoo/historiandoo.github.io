@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "revision": "bfdb87c6292bcc9b",
+  "total": 776,
+  "coverage": [
+    {
+      "exam": "ENEM",
+      "years": [
+        2025,
+        2024,
+        2023,
+        2022,
+        2021,
+        2020,
+        2019,
+        2018,
+        2017,
+        2016
+      ],
+      "total": 217,
+      "multipleChoice": 217,
+      "written": 0,
+      "withoutExpectedAnswer": 0
+    },
+    {
+      "exam": "FUVEST",
+      "years": [
+        2026,
+        2025,
+        2024,
+        2023,
+        2022,
+        2021,
+        2020,
+        2019,
+        2018,
+        2017
+      ],
+      "total": 188,
+      "multipleChoice": 124,
+      "written": 64,
+      "withoutExpectedAnswer": 0
+    },
+    {
+      "exam": "UNICAMP",
+      "years": [
+        2026,
+        2025,
+        2024,
+        2023,
+        2022,
+        2021,
+        2020,
+        2019,
+        2018,
+        2017
+      ],
+      "total": 174,
+      "multipleChoice": 101,
+      "written": 73,
+      "withoutExpectedAnswer": 0
+    },
+    {
+      "exam": "UNESP",
+      "years": [
+        2026,
+        2025,
+        2024,
+        2023,
+        2022,
+        2021,
+        2020,
+        2019,
+        2018,
+        2017
+      ],
+      "total": 197,
+      "multipleChoice": 168,
+      "written": 29,
+      "withoutExpectedAnswer": 0
+    }
+  ],
+  "byYear": {
+    "2016": 20,
+    "2017": 76,
+    "2018": 75,
+    "2019": 75,
+    "2020": 73,
+    "2021": 96,
+    "2022": 87,
+    "2023": 78,
+    "2024": 75,
+    "2025": 72,
+    "2026": 49
+  },
+  "generatedOn": "2026-10-20"
+}

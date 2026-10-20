@@ -26,3 +26,6 @@
 @media(max-width: 1000px) and (min-width: 761px) { .mind-map { gap: 25px 18px; padding: 24px 18px; } .map-node { padding: 18px 14px; } .map-node h3 { font-size: 24px; } .map-node p, .map-node li { font-size: 18px; } .map-center { padding: 14px; } }
 @media(max-width: 760px) { .mind-map { grid-template-columns: 1fr; grid-template-rows: auto; gap: 28px; padding: 28px 18px; } .map-center { grid-column: 1; grid-row: 1; transform: none; } .map-center img { max-width: 250px; max-height: 165px; } .map-node { grid-column: 1; grid-row: auto; } .map-node::before { content: ''; position: absolute; width: 3px; height: 32px; left: calc(50% - 1px); top: -32px; background: var(--ochre); z-index: -1; } .map-connections { display: none; } .map-tabs { flex-direction: column; } .map-reading-link { flex-direction: column; align-items: flex-start; } .map-center h2 { font-size: 32px; } }
 @media print { .site-header, .site-footer, .map-tabs, .map-reading-link, .back-question, .skip-link, .section-heading .comic-button { display: none !important; } .main-content { padding: 0; } .mind-map { break-inside: avoid; } body { print-color-adjust: exact; -webkit-print-color-adjust: exact; } }
+
+
+.download-error { color: #ffc7aa; padding: 12px; border: 1px solid var(--terra); }

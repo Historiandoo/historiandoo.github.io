@@ -30,7 +30,7 @@ As imagens PNG anteriores continuam disponíveis em `src/assets/`.
 - `src/components/ReadingPage.jsx`: apresentação compartilhada dos artigos.
 - `src/data/contentMaps.jsx`: conteúdo textual dos três mapas.
 - `src/components/MindMap.jsx` e `src/css/MindMap.css`: diagramas responsivos.
-- `src/utils/downloadMindMap.js`: exportação SVG independente de fontes e imagens externas.
+- `src/utils/downloadMindMap.js` e `renderMindMap.js`: exportação PNG completa com arte, marca, conexões e texto em alta resolução.
 
 Os mapas abrem por `/mapaMental?id=1`, `?id=2` e `?id=3`, inclusive após atualizar
 a página. Em telas estreitas, o tema central aparece antes das quatro conexões.

@@ -1,0 +1,308 @@
+{
+  "2017": {
+    "urls": {
+      "first": "https://www.fuvest.br/wp-content/uploads/fuvest_2017_1fase_prova_V.pdf",
+      "key": "https://www.fuvest.br/wp-content/uploads/fuvest_2017_1fase_prova_gab.pdf",
+      "second": "https://www.fuvest.br/wp-content/uploads/fuvest_2017_2fase_dia2.pdf",
+      "expected": null,
+      "third": "https://www.fuvest.br/wp-content/uploads/fuvest_2017_2fase_dia3.pdf"
+    },
+    "history": {
+      "17": "Arte barroca",
+      "24": "Cultura medieval",
+      "25": "Democracia na Grécia Antiga",
+      "26": "Renascimento e humanismo",
+      "27": "Crise do Antigo Regime e revoltas coloniais",
+      "28": "Rotas comerciais medievais",
+      "29": "Revolução Industrial",
+      "30": "Abolição e imigração",
+      "31": "Guerras mundiais",
+      "32": "Reformas urbanas e Revolta da Vacina",
+      "33": "Ditadura militar e redemocratização",
+      "34": "Revolução Neolítica",
+      "41": "Era Vargas e secas no Nordeste",
+      "44": "Industrialização brasileira",
+      "45": "Modernismo e patrimônio cultural"
+    },
+    "writtenTopics": {
+      "1": "Reformas pombalinas e povos indígenas",
+      "2": "Cafeicultura no Brasil Império",
+      "3": "Guerra Civil dos Estados Unidos",
+      "4": "Urbanização e exclusão social",
+      "5": "Populismo na América Latina",
+      "6": "Trabalho na Antiguidade e na modernidade"
+    }
+  },
+  "2018": {
+    "urls": {
+      "first": "https://www.fuvest.br/wp-content/uploads/fuv2018_1fase_prova_V.pdf",
+      "key": "https://www.fuvest.br/wp-content/uploads/fuv2018_1fase_prova_gab.pdf",
+      "second": "https://www.fuvest.br/wp-content/uploads/fuv2018_2fase_dia2.pdf",
+      "expected": null,
+      "third": "https://www.fuvest.br/wp-content/uploads/fuv2018_2fase_dia3.pdf"
+    },
+    "history": {
+      "58": "Mundo helenístico",
+      "59": "Feudalismo e sociedade medieval",
+      "60": "Conquista da América",
+      "61": "Economia colonial: açúcar e mineração",
+      "62": "Independências na América",
+      "63": "Descolonização africana",
+      "64": "Declaração Universal dos Direitos Humanos",
+      "65": "Chile de Salvador Allende",
+      "66": "Fascismo e futurismo",
+      "67": "Holocausto e nazismo",
+      "68": "Revolução Científica e Iluminismo"
+    },
+    "writtenTopics": {
+      "1": "Povos indígenas da América",
+      "2": "Absolutismo e despotismo esclarecido",
+      "3": "Guerra do Ópio e imperialismo",
+      "4": "Migrações e trabalho no Brasil",
+      "5": "Abolição da escravidão",
+      "6": "Revolução Russa e cultura"
+    }
+  },
+  "2019": {
+    "urls": {
+      "first": "https://www.fuvest.br/wp-content/uploads/fuvest_2019_primeira_fase.pdf",
+      "key": "https://www.fuvest.br/wp-content/uploads/fuv2019.gabarito.oficial.pdf",
+      "second": "https://www.fuvest.br/wp-content/uploads/fuv2019_2fase_dia2.pdf",
+      "expected": null
+    },
+    "history": {
+      "1": "Povos indígenas e agricultura",
+      "79": "Imigração e política migratória",
+      "80": "Roma Antiga e arcos do triunfo",
+      "81": "Mulheres e Iluminismo",
+      "82": "Migrações e guerras no século XX",
+      "83": "Revolução Cultural chinesa",
+      "84": "Economia brasileira e Era Vargas",
+      "85": "Revolução Industrial",
+      "86": "Proclamação da República",
+      "87": "Revolução Francesa",
+      "88": "Apartheid na África do Sul",
+      "89": "Escravidão e abolicionismo",
+      "90": "Liberalismo e revoluções do século XIX"
+    },
+    "writtenTopics": {
+      "1": "Governo Juscelino Kubitschek",
+      "2": "Padre Antônio Vieira e União Ibérica",
+      "3": "Movimentos sociais de 1968",
+      "4": "Reforma Protestante e iconoclastia",
+      "5": "Etiópia e diáspora negra",
+      "6": "Era Vargas e propaganda política"
+    }
+  },
+  "2020": {
+    "urls": {
+      "first": "https://www.fuvest.br/wp-content/uploads/fuvest_2020_primeira_fase_prova_V.pdf",
+      "key": "https://www.fuvest.br/wp-content/uploads/fuvest_2020_primeira_fase_gabaritos.pdf",
+      "second": "https://www.fuvest.br/wp-content/uploads/fuv2020_2fase_dia_2.pdf",
+      "expected": null
+    },
+    "history": {
+      "59": "Peste Negra e crise medieval",
+      "60": "Comércio transaariano",
+      "61": "Legislação trabalhista e Era Vargas",
+      "62": "Grandes Navegações",
+      "63": "Brasil holandês",
+      "64": "Conquista e colonização da América",
+      "65": "Ditadura militar e cultura",
+      "66": "Guerra Fria e golpes na América Latina",
+      "67": "Independência dos Estados Unidos",
+      "68": "História da leitura e da educação"
+    },
+    "writtenTopics": {
+      "1": "Futebol e colonialismo português",
+      "2": "Antigo Regime e punição",
+      "3": "Povos indígenas e colonização",
+      "4": "Corte portuguesa e Independência",
+      "5": "Colonização da América espanhola",
+      "6": "Crise de Suez e Guerra Fria"
+    }
+  },
+  "2021": {
+    "urls": {
+      "first": "https://www.fuvest.br/wp-content/uploads/fuvest_2021_primeira_fase.pdf",
+      "key": "https://www.fuvest.br/wp-content/uploads/fuvest_2021_primeira_fase_gabarito_v2.pdf",
+      "second": "https://www.fuvest.br/wp-content/uploads/fuv2021_2fase_dia_2.pdf",
+      "expected": null
+    },
+    "history": {
+      "34": "Grandes Navegações",
+      "35": "Mineração e economia colonial americana",
+      "36": "Expansão territorial do Brasil colonial",
+      "37": "Economia do Brasil Império",
+      "38": "Cabanagem e Período Regencial",
+      "39": "República Oligárquica",
+      "40": "Fascismo e nazismo",
+      "41": "Arte do Renascimento",
+      "42": "Urbanização e desigualdade social",
+      "43": "Grécia Antiga e condição feminina",
+      "44": "Escravidão indígena e africana"
+    },
+    "writtenTopics": {
+      "1": "Primeira República e urbanização",
+      "2": "Lei de Terras e trabalho livre",
+      "3": "Crises políticas de 1945, 1954 e 1964",
+      "4": "Cristianismo e Império Romano",
+      "5": "Grandes Navegações e conquista",
+      "6": "Economia colonial brasileira"
+    }
+  },
+  "2022": {
+    "urls": {
+      "first": "https://www.fuvest.br/wp-content/uploads/fuvest_2022_primeira_fase_tipo_V.pdf",
+      "key": "https://www.fuvest.br/wp-content/uploads/fuvest_2022_primeira_fase_gabarito_retificado.pdf",
+      "second": "https://www.fuvest.br/wp-content/uploads/fuvest_2022_segunda_fase_dia_2.pdf",
+      "expected": null
+    },
+    "history": {
+      "79": "Revolução Industrial e operariado",
+      "80": "Migrações e retirantes",
+      "81": "Canudos e Primeira República",
+      "82": "Economia colonial brasileira",
+      "83": "Revolta dos Malês",
+      "84": "Grécia Antiga e Guerra do Peloponeso",
+      "85": "Arte do Renascimento",
+      "86": "Ditaduras na História",
+      "87": "Vanguardas culturais latino-americanas",
+      "88": "Segunda Guerra Mundial",
+      "89": "Extrema direita contemporânea",
+      "90": "Patrimônio histórico e povos indígenas"
+    },
+    "writtenTopics": {
+      "1": "Império espanhol e Contrarreforma",
+      "2": "Independência dos Estados Unidos",
+      "3": "Era Vargas e propaganda",
+      "4": "Movimento negro e Constituição de 1988",
+      "5": "Rondon e povos indígenas",
+      "6": "Revolução Praieira"
+    }
+  },
+  "2023": {
+    "urls": {
+      "first": "https://www.fuvest.br/wp-content/uploads/fuvest2023_primeira_fase_prova_V.pdf",
+      "key": "https://www.fuvest.br/wp-content/uploads/fuvest2023_gabarito_primeira_fase.pdf",
+      "second": "https://www.fuvest.br/wp-content/uploads/fuvest_2023_segunda_fase_dia_2.pdf",
+      "expected": "https://www.fuvest.br/wp-content/uploads/fuvest2023_abordagens_esperadas_2fase.pdf"
+    },
+    "history": {
+      "2": "Sufrágio feminino no Brasil",
+      "3": "Movimento negro e cidadania",
+      "40": "Centenário da Independência e modernização",
+      "41": "Povos indígenas e identidades",
+      "42": "Trabalho e controle social no Brasil colonial",
+      "43": "Modernismo e vanguardas",
+      "44": "Imigração italiana no Brasil",
+      "45": "Fascismo italiano",
+      "46": "Democracia ateniense",
+      "47": "Revolução Gloriosa e parlamentarismo",
+      "48": "Golpe de 1964 e Reformas de Base",
+      "49": "Dissolução da União Soviética",
+      "53": "Imperialismo e fronteiras africanas"
+    },
+    "writtenTopics": {
+      "1": "Independências do Brasil e do Uruguai",
+      "2": "Movimento operário e Revolução Industrial",
+      "3": "Reino do Congo e relações com Portugal",
+      "4": "Tropicalismo e ditadura militar",
+      "5": "Helenismo e Renascimento",
+      "6": "Cafeicultura, ferrovias e imigração"
+    }
+  },
+  "2024": {
+    "urls": {
+      "first": "https://www.fuvest.br/wp-content/uploads/fuvest2024_primeira_fase_prova_V.pdf",
+      "key": "https://www.fuvest.br/wp-content/uploads/fuvest2024_gabarito_primeira_fase_retificado_2023-11-24.pdf",
+      "second": "https://www.fuvest.br/wp-content/uploads/fuvest2024_segunda_fase_prova_2dia.pdf",
+      "expected": "https://www.fuvest.br/wp-content/uploads/fuvest_2024_2024.01.22_RESPOSTAS_USP_Guia.pdf"
+    },
+    "history": {
+      "3": "Representação indígena na arte",
+      "6": "Economia açucareira no Brasil colonial",
+      "7": "Abolicionismo e Lei dos Sexagenários",
+      "22": "Iluminismo e Enciclopédia",
+      "44": "Industrialização brasileira",
+      "45": "Crise de 1929",
+      "46": "Cafeicultura e expansão econômica",
+      "52": "Ditadura militar e cultura urbana",
+      "74": "Civilizações africanas antigas",
+      "75": "Reino de Axum e comércio africano",
+      "76": "Revolução Cubana e Guerra Fria",
+      "77": "Revolução Iraniana",
+      "86": "Agricultura dos povos indígenas",
+      "87": "Conquista da América",
+      "88": "Conquista espanhola e Império Asteca"
+    },
+    "writtenTopics": {
+      "1": "Feudalismo e castelos medievais",
+      "2": "Proclamação da República",
+      "3": "Pompeia e Hiroshima",
+      "4": "Pan-africanismo e descolonização",
+      "5": "Guerra do Vietnã e pacifismo",
+      "6": "Ditadura militar e milagre econômico"
+    }
+  },
+  "2025": {
+    "urls": {
+      "first": "https://www.fuvest.br/wp-content/uploads/fuvest2025_primeira_fase_prova_V1.pdf",
+      "key": "https://www.fuvest.br/wp-content/uploads/fuvest2025_gabarito_primeira_fase.pdf",
+      "second": "https://www.fuvest.br/wp-content/uploads/fuvest2025_prova_2fase_dia2.pdf",
+      "expected": "https://www.fuvest.br/wp-content/uploads/fuvest_2025_guia_respostas.pdf"
+    },
+    "history": {
+      "1": "Patrimônio cultural indígena e colonialismo",
+      "4": "Povos indígenas e colonização",
+      "8": "Iconoclastia no Império Bizantino",
+      "13": "Colonização da América",
+      "14": "Confederação do Equador",
+      "39": "Peronismo na Argentina",
+      "79": "Migrações e crise do Império Romano",
+      "81": "Cafeicultura e economia imperial",
+      "85": "Inconfidência Mineira",
+      "86": "Modernismo brasileiro",
+      "87": "Sociedades africanas e comércio atlântico",
+      "90": "Era Vargas e nacionalismo"
+    },
+    "writtenTopics": {
+      "1": "Crise medieval e caça às bruxas",
+      "2": "Brasil holandês e povos indígenas",
+      "3": "Ditadura militar e resistência cultural",
+      "4": "Imperialismo na África",
+      "5": "Brasil Império e relações de dominação",
+      "6": "Povos mesoamericanos e cacau"
+    }
+  },
+  "2026": {
+    "urls": {
+      "first": "https://www.fuvest.br/wp-content/uploads/fuvest2026-fase1-prova-V1.pdf",
+      "key": "https://www.fuvest.br/wp-content/uploads/fuvest2026-fase1-gabarito.pdf",
+      "second": "https://www.fuvest.br/wp-content/uploads/fuvest2026-fase2-dia2-prova.pdf",
+      "expected": "https://www.fuvest.br/wp-content/uploads/fuvest2026-fase2-dia2-respostas-esperadas-historia.pdf"
+    },
+    "history": {
+      "9": "Direitos das mulheres no século XIX",
+      "10": "Cultura afro-brasileira e patrimônio",
+      "12": "Sufrágio feminino e cidadania",
+      "19": "Ditadura militar e arte de resistência",
+      "20": "Colonialismo e povos indígenas nos Andes",
+      "21": "Jesuítas e colonização do Brasil",
+      "45": "Humanismo renascentista",
+      "46": "Arte barroca",
+      "49": "Rotas da Seda e intercâmbio cultural",
+      "50": "Islamismo e peregrinação",
+      "54": "Democracia ateniense",
+      "88": "Abolição do tráfico atlântico e escravidão"
+    },
+    "writtenTopics": {
+      "1": "Grandes Navegações e mentalidades",
+      "2": "Educação e cidadania no Brasil Império",
+      "3": "China contemporânea",
+      "4": "Universidades na Baixa Idade Média",
+      "5": "Estados Unidos e crise econômica",
+      "6": "Colonialismo português em Angola e Moçambique"
+    }
+  }
+}
